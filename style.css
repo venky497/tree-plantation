@@ -1,0 +1,131 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #ffffff, #e6f5e6);
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #004d26;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4af37;
+}
+
+.contact-btn {
+    background-color: #004d26;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 1px solid #d4af37;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #d4af37;
+    color: #004d26;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.content {
+    width: 60%;
+    min-width: 300px;
+}
+
+.content h1 {
+    color: #004d26;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content a {
+    color: #004d26;
+    text-decoration: none;
+    border-bottom: 1px dotted #004d26;
+}
+
+.content a:hover {
+    color: #d4af37;
+    border-color: #d4af37;
+}
+
+.image {
+    width: 35%;
+    min-width: 200px;
+}
+
+.image img {
+    max-width: 100%;
+    border: 3px solid #d4af37;
+    border-radius: 8px;
+}
+
+.gallery {
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.gallery h2 {
+    color: #004d26;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.gallery-grid img {
+    max-width: 200px;
+    border: 3px solid #d4af37;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    color: #004d26;
+}
